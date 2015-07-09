@@ -1,0 +1,8 @@
+c:\users\zhluktenko\OneDrive\Visual Studio 2012\Projects\ConsoleApplication9\ConsoleApplication9\bin\Debug\ConsoleApplication9.exe.config
+c:\users\zhluktenko\OneDrive\Visual Studio 2012\Projects\ConsoleApplication9\ConsoleApplication9\bin\Debug\ConsoleApplication9.exe
+c:\users\zhluktenko\OneDrive\Visual Studio 2012\Projects\ConsoleApplication9\ConsoleApplication9\bin\Debug\ConsoleApplication9.pdb
+c:\users\zhluktenko\OneDrive\Visual Studio 2012\Projects\ConsoleApplication9\ConsoleApplication9\bin\Debug\Faker.NET4.dll
+c:\users\zhluktenko\OneDrive\Visual Studio 2012\Projects\ConsoleApplication9\ConsoleApplication9\bin\Debug\de-DE\Faker.NET4.resources.dll
+c:\users\zhluktenko\OneDrive\Visual Studio 2012\Projects\ConsoleApplication9\ConsoleApplication9\obj\Debug\ConsoleApplication9.csprojResolveAssemblyReference.cache
+c:\users\zhluktenko\OneDrive\Visual Studio 2012\Projects\ConsoleApplication9\ConsoleApplication9\obj\Debug\ConsoleApplication9.exe
+c:\users\zhluktenko\OneDrive\Visual Studio 2012\Projects\ConsoleApplication9\ConsoleApplication9\obj\Debug\ConsoleApplication9.pdb
