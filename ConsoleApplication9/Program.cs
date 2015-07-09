@@ -8,12 +8,21 @@ namespace TeamBuilderExample
     {
         static void Main()
         {
-            Team @new = new TeamBuilder().Create("23c16-3pr")
-                .WithColor(ConsoleColor.Cyan)
-                .WithHomeTown("Rivne")
-                .WithPlayers()
-                .Build();
-            PrintTeam(@new);
+            try
+            {
+                Team @new = new TeamBuilder()
+                    .Create("23c16-3pr")
+                    .WithColor(ConsoleColor.Cyan)
+                    .WithHomeTown("Rivne")
+                    .WithPlayers()
+                    .Build();
+
+                PrintTeam(@new);
+            }
+            catch (NullReferenceException)
+            {
+                Console.WriteLine("Error");
+            }
             
 
         }
@@ -86,7 +95,11 @@ namespace TeamBuilderExample
         }
         public Team Build()
         {
-            return new Team(this._name, this._players, this._homeTown, this._color);
+            if (this._color != ConsoleColor.Black &&  this._homeTown != null && this._name != null && this._players.Count != 0)
+            {
+                return new Team(this._name, this._players, this._homeTown, this._color);
+            }
+            else throw new NullReferenceException();
         }
 
 
